@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import "@/assets/scss/_variables";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  background-color: $magnolia;
+}
+
+.main {
+  background-color: $white;
+  padding: 30px 25px;
+  margin: -75px 16px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
